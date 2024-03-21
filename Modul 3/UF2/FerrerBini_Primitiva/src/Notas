@@ -1,0 +1,30 @@
+La Primitiva es un juego de azar que consiste en elegir 6 números entre 1 al 49 (método sencillo), y el
+número del  reintegro, entre los números 0 al 9, con el objetivo de acertar la
+combinación ganadora en el sorteo correspondiente.
+
+La combinación ganadora está formada por 7 bolas, de las cuales 6 se extraen de un bombo con 49 bolas (con
+números que van desde 1 al 49) y 1 se extrae de otro bombo con 10 bolas (con números que van desde 0 a 9).
+
+Para cada apuesta que hace el usuario, le cuesta 6 euros (1eu por cada número apostado y el reintegro gratis).
+El reparto de premios se realiza en función del número de aciertos con respecto a la combinación ganadora y el reintegro.
+
+En concreto:
+Siempre que el usuario acierta el número del reintegro (comprendido entre el 0 y el 9) se le
+devuelven los 6eu de la apuesta.
+Siempre que el usuario acierta un número de la apuesta, gana 20 eu por acierto.
+Los premios son acumulables. Es decir, si por ejemplo un usuario acierta dos números de la apuesta principal
+y además el reintegro, éste gana un premio de 46eu (20 por cada acierto + 6 del reintegro).
+
+Diseño del código:
+El proyecto Java con el código fuente incluye un fichero Java (Main.java) donde se encuentra el método main lugar en qué se inicia la aplicación. Tu trabajo es implementar los métodos:
+
+public int[] introducirApuesta(): para permitir al usuario introducir por consola su apuesta, formada por 6 números enteros comprendidos entre 1 y 49, y un número entero comprendido entre 0 y 9. Retornará el array de 7 números enteros con la apuesta del usuario. Recuerda que el usuario no puede repetir en su apuesta un mismo número y que la aplicación no debe de terminar de forma indebida ante errores en la entrada de datos del usuario: valores no numéricos o decimales. En ese caso, debe mostrar un mensaje de error y permitir al usuario corregir su elección.
+public int[] calcularCombinación(): para calcular la combinación ganadora del sorteo formada por 6 números enteros comprendidos entre 1 y 49, y el reintegro, un número entero comprendido entre 0 y 9. Retornará el array de 7 números enteros con la combinación ganadora y el reintegro. Recuerda que en la combinación ganadora no pueden haber números repetidos; pero el reintegro sí puede coincidir con alguno de los valores de la combinación ganadora. Hay que calcular los valores imaginando que los sacamos de una bola de la lotería, es decir: simulando que son valores aleatorios.
+public int comprobarAciertos(int[] apuesta, int[] combinacionGanadora): éste método nos va a servir para calcular qué premio ha obtenido el usuario jugador. Para ello, debemos pasarle los dos arrays que calculamos en los dos métodos anteriores. Dentro de método, debemos comparar los 6 primeros valores de array que apostó el usuario con los primeros 6 valores los valores del array que salieron en el bombo aleatorio. El último valor de cada array nos sirve para el reintegro que tiene un valor de premio distinto de los demás y por ello hay que tratarlo por separado. Cada vez que se detecte un valor acertado, se le sumará a los que ya pudiera tener, hay que ir acumulando el premio en una variable para después ser devuelta al final del método.
+FASE II: AÑADIR MENU RECURSIVO
+
+Loteria
+1. Hacer apuesta
+2. Girar el bombo
+3. Juego nuevo
+4. Salir

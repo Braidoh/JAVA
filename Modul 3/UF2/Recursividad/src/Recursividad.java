@@ -67,7 +67,7 @@ public class Recursividad {
         } System.out.println("El número menor del vector es: " + menor);
     }
 
-    /*private static void SumarMatriz(Scanner sc) {
+    private static void SumarMatriz2(Scanner sc) {
         System.out.println("Introduce el número de filas de la matriz");
         int filas = sc.nextInt();
         System.out.println("Introduce el número de columnas de la matriz");
@@ -81,7 +81,7 @@ public class Recursividad {
             }
         }
         System.out.println("La suma de todos los elementos de la matriz es: " + suma);
-    }*/
+    }
 
     private static void SumarMatriz(Scanner sc) {
         System.out.println("Introduce el número de filas de la matriz");
