@@ -1,0 +1,23 @@
+Los objetivos de este ejercicio son:
+    Uso de la clase String
+    Uso de Java Documentation
+
+Completa el siguiente código donde se define una variable String que contiene la ruta a un fichero, para
+que muestre por consola:
+    La extensión del fichero
+    El nombre del fichero
+
+public class Main {
+ public static void main(String[] args) {
+ String path = "home/user/index.html";
+ //insert code here
+ }
+}
+
+Hint:
+Consulta el método substring de la clase String en la documentación de Java, verás que permite obtener subcadenas de
+caracteres de una string dada.Comprueba que para obtener la extensión del fichero (.html en este ejemplo), tenemos
+que localizar el carácter ‘.’ dentro de la cadena de texto que referencia la ruta del fichero y extraer la substring
+desde esta posición hasta el final de la cadena Comprueba que para obtener el nombre del fichero
+(indexl en este ejemplo), tenemos que localizar el carácter ‘/’ dentro de la cadena de texto que referencia la ruta
+del fichero y extraer la subtrstring desde esta posición hasta el carácter ‘.’

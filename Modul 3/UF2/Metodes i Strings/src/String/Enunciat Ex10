@@ -1,0 +1,29 @@
+Ejercicio 10: Classroom
+
+Los objetivos de este ejercicio son:
+    Uso de la línea de comandos para interactuar con el usuario
+    Uso de bucles
+    Uso de sentencias condicionales
+    Uso de arrays de strings
+
+Desarrolla un programa en Java que declare e inicialice un array con los nombres de los alumnos de
+una clase. El tamaño del array y su contenido lo escoges tú.
+________________________________________________________________________________________________________________________
+Ejercicio 10 Tarea #1
+
+Muestra por consola los nombres de la clase (=contenido del array) en una misma línea separados por comas.
+
+Hint: Observa un detalle. Si en el array tenemos los siguientes nombres: Paula , Santiago , Pascual , Jorge , Saul ,
+Enrique. Lo que queremos que se imprima es esto y no Paula , Santiago , Pascual , Jorge , Saul , Enrique ,.
+La diferencia está en no imprimir la última coma. Para evitar esto tendrás que hacer uso de la sentencia IF.
+________________________________________________________________________________________________________________________
+Ejercicio 10 Tarea #2
+
+Haz que el programa solicite al usuario qué posición quiere cambiar.
+
+Si la posición existe (por ejemplo en un array de 5 elementos son válidas las posiciones 0…4) mostrará al usuario su
+valor (el nombre) y solicitará al usuario el nuevo nombre. Cambiará el nombre antiguo por el nuevo y mostrará el
+contenido del array.
+
+Si la posición no existe (por ejemplo en un array de 5 elementos no es válida la posición 6),
+indicará al usuario que la posición entrada no existe.

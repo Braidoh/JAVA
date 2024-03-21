@@ -1,0 +1,13 @@
+Programa en JAVA un desencriptador de paraules.
+El funcionament és el següent:
+• L’usuari escriurà 7 paraules per consola.
+• La paraula es formarà amb la segona lletra de cada una de les 7 paraules
+• Un cop desencriptada, la paraula es mostrarà per consola, dins de la frase:
+ “La paraula encriptada es: paraula”
+
+ Exemple:
+ Escriu les 7 paraules totes seguides:
+ ALL cau AS vaca alli alla nena
+ La paraula encriptada es: LaSalle
+
+ Process finished with exit code 0

@@ -1,0 +1,74 @@
+Quin bitllet desitja adquirir?
+Has triat: Bitllet Senzill
+Has triat: Zona 1
+El preu del bitllet Senzill Zona 1 es: 1.0 €
+Vols seguir comprant més bitllets? [S/N]
+s
+Vols seguir comprant el mateix tipus de bitllet o un altre?
+Has triat: Un altre
+Quin bitllet desitja adquirir?
+Has triat: Bitllet Senzill
+Has triat: Zona 2
+El preu del bitllet Senzill Zona 2 es: 1.5 €
+Vols seguir comprant més bitllets? [S/N]
+s
+Vols seguir comprant el mateix tipus de bitllet o un altre?
+Has triat: El mateix tipus
+Vols seguir comprant més bitllets? [S/N]
+s
+Vols seguir comprant el mateix tipus de bitllet o un altre?
+Has triat: Un altre
+Quin bitllet desitja adquirir?
+Has triat: Bitllet T-Casual
+Has triat: Zona 1
+El preu del bitllet T-Casual Zona 1 es: 5.0 €
+Vols seguir comprant més bitllets? [S/N]
+n
+Ha comprat 3 bitllets, ha de pagar 7.5
+Introdueix els diners (nomès accepta EURO)
+10
+Vols el tíquet? [S/N]
+s
+______TIQUET______
+T-Casual Zona 1 - Preu: 5.0 €
+T-Casual Zona 1 - Preu: 5.0 €
+T-Casual Zona 1 - Preu: 5.0 €
+Total: 7.5
+__________________
+
+Hauría de sortir això
+
+Ha comprat 4 bitllets, ha de pagar 7.5
+Vols el tíquet? [S/N]
+s
+______TIQUET______
+1 Senzill Zona 1 - Preu: 1.0 €
+2 Senzill Zona 2 - Preu: 3 €
+1 T-Casual Zona 1 - Preu: 5.0 €
+Total: 9.0
+__________________
+
+
+Quin bitllet desitja adquirir?
+El preu del bitllet Senzill Zona 1 es: 1.0 €
+Vols seguir comprant més bitllets? [S/N]
+Has triat: El mateix tipus
+Vols seguir comprant més bitllets? [S/N]
+s
+Vols seguir comprant el mateix tipus de bitllet o un altre?
+El preu del bitllet Senzill Zona 2 es: 1.5 €
+Vols seguir comprant més bitllets? [S/N]
+Has triat: El mateix tipus
+Vols seguir comprant més bitllets? [S/N]
+n
+Ha comprat 2 bitllets, ha de pagar 2.5
+Introdueix els diners (nomès accepta EURO)
+3
+Ha introduït 3.0 €
+El canvi es 0.5 €
+Vols el tíquet? [S/N]
+s
+______TIQUET______
+2 Senzill Zona 2 - Preu: 1.5 €
+2 Senzill Zona 2 - Preu: 1.5 €
+Total: 2.5 €

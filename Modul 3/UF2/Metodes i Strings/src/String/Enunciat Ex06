@@ -1,0 +1,17 @@
+Ejercicio 06: Reversed
+
+Los objetivos de este ejercicio son:
+    Uso de la línea de comandos para interactuar con el usuario
+    Uso de bucles
+    Uso de String
+    Concatenación de strings
+    Uso Java Documentation
+
+Desarrolla un programa en Java que solicite al usuario un texto y lo muestre al revés. En la siguiente
+imagen se muestra un ejemplo de ejecución del programa:
+Introduce un texto y pulsa enter:
+Hello world
+Texto invertido: dlorw olleH
+
+Hint: En este ejercicio es necesario acceder a cada carácter del texto original para poder invertir el orden.
+La clase String dispone del método charAt(int index), que permite obtener un carácter dada una posición.

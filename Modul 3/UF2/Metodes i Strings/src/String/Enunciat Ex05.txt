@@ -1,0 +1,41 @@
+TAREA 1
+Completa el siguiente programa en Java que dispone de la colección de libros de una biblioteca, para
+que solicite al usuario el título de un libro, y le devuelva si existe en el catálogo o no.
+
+import java.util.Scanner;
+public class Main {
+ public static void main(String[] args) {
+ String[] catalogo = {"Los muertos vivientes", "Brevísima historia del tiempo", "La clave secreta del
+universo", “Mi universo”, "Patria", "De mayor quiero ser feliz", "Empieza por los zapatos"};
+ //Insert code here
+ }
+}
+
+En la siguiente imagen se muestra un ejemplo de ejecución del programa:
+Bienvenido a nuestra biblioteca
+Escribe el título del libro que quieres buscar:
+Los muertos vivientes
+Se ha localizado el libro
+
+Hint: Nos gustaría que si el usuario introduce “los muertos vivientes” y en el catálogo el título
+del libro está registrado como “Los muertos vivientes”, el resultado de la búsqueda sea positivo.
+Es decir, nos interesa que no se tenga en cuenta mayúsculas/minúsculas en la búsqueda.
+Para conseguir esto la clase String dispone de, además del método equals, del método equalsIgnoreCase
+_______________________________________________________________________________________________________________________
+TAREA 2
+Habitualmente las búsquedas no se realizan introduciendo exactamente el título, sino palabras del título.
+De esta forma se facilita al usuario la búsqueda. En esto va a consistir la tarea, en modificar el código de la tarea
+anterior para que dada una palabra o palabras del título introducidas por el usuario, el programa busque en el catálogo
+todos los libros que contengan esta palabra o palabras, devolviendo que títulos coinciden con el criterio de búsqueda.
+
+En la siguiente imagen se muestra un ejemplo de ejecución del programa:
+Bienvenido a nuestra biblioteca
+Escribe palabra o palabras del título del libro que quieres buscar::
+Los muertos vivientes
+La clave secreta del universo
+Mi universo
+
+Hint:
+La clase String dispone de métodos que permiten comparar cadenas de caracteres de forma exacta
+(equals, equalsIgnoreCase, compareTo), pero también dispone de un método (contains) que permite saber
+si una palabra o palabras están contenidas en una cadena de texto.

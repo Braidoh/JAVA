@@ -1,0 +1,5 @@
+Ejercicio 5. Realizar dos métodos, uno que haga la conversión de Celsius a Fahrenheit y el otro
+de Fahrenheit a Celcius; teniendo en cuenta que la fórmula de la conversión es la siguiente:
+
+        fahrenheit = (9,0 / 5) * celsius + 32
+        celsius = (5,0 /9) * (fahrenheit - 32)

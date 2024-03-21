@@ -1,0 +1,21 @@
+Proposaries alguna millora al codi?
+
+Scanner input = new Scanner(System.in);
+boolean valorCorrecte = false;
+int opcio = 0;
+do {
+System.out.print("Escriu un valor enter 1-4");
+valorCorrecte = ______________________;
+if (______________________) {
+System.out.println("ERROR: No enter!");
+} else {
+opcio = ______________________;
+if (opcio < 0 || opcio > 4) {
+System.out.println("ERROR!");
+valorCorrecte = false;
+}
+}
+input.______________________;
+} while (______________________);
+
+

@@ -1,0 +1,9 @@
+Ejercicio 6. Realizar un método que calcule y muestre por pantalla el área o volumen de un cilindro,
+según se especifique. Para distinguir un caso del otro se le pasará un carácter 'a' (para área) o 'v' (para volumen).
+Además, se le tiene que pasar a la función el radio y la altura.
+
+Volumen cilindro:
+V = π x Radio² x Altura
+
+Área = Área de las dos bases (círculos) + Área de la superficie lateral curva.
+A = 2 x π x r x (r + h)

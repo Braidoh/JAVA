@@ -1,0 +1,15 @@
+Ejercicio 03: Upper/Lower case
+
+Los objetivos de este ejercicio son:
+    Uso de la línea de comandos para interactuar con el usuario
+    Uso de la clase String
+    Uso de Java Documentation
+
+Desarrolla un programa en Java que solicite al usuario un texto y lo muestre en mayúsculas y en
+minúsculas.
+
+Hint:
+Antes de programar una funcionalidad la recomendación es consultar los métodos predefinidos de la clase
+(en este caso la clase String) para comprobar si esta implementada. Consulta la documentación de Java de la clase
+String para buscar si dispone de métodos que permitan convertir los caracteres una cadena de texto a
+mayúsculas / minúsculas.

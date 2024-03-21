@@ -1,0 +1,14 @@
+Desenvolupa un projecte amb java usant IntelliJ que faci el següent:
+
+1- Demanar un input a l’usuari per teclat que ha de ser de tipus enter.
+    a. Assegura’t de que el programa tingui control d’errors i que no falli si l’input de dades
+    no és de tipus enter.
+    b. Fes que el control d’errors permeti seguir introduint inputs fins que s’introdueixi un
+    valor de tipus de dades enter.
+
+2- Un cop tenim l’input guardat, fer que el programa comprovi si el número enter introduït és
+múltiple de 3 o no.
+    a. Si el número és múltiple de 3, el programa escriurà per pantalla: “Has introduït un
+    número múltiple de 3”
+    b. En cas contrari, és a dir, si el número NO és múltiple de 3, el programa ha d’escriure:
+    “Has introduït un número que no és múltiple de 3”.

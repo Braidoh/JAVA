@@ -1,0 +1,3 @@
+Ejercicio 2. Realizar un programa para calcular el número de aciertos en la primitiva. El usuario introduce 6 números,
+el ordenador calcula aleatoriamente los seis números de la primitiva (valores entre 0 y 49).
+Realizar un método que toma como parámetros estos dos vectores y devuelve el número de aciertos.

@@ -1,0 +1,24 @@
+En JAVA haz un programa que utilice arra 2d para simular un tablero de ajedrez y valida si una pieza puede moverse a una posición determinada. El programa ha de permitir al usuario introducir las coordenadas de la pieza y su destino. Debe haber comentarios en el codigo indicando sus funciones
+
+En lugar de figuras de ajedrez serán letras, R (rey), D (reina), T (torre) A (alfil), C(caballo), P (peon).
+
+Al iniciar el programa debe imprimir el tablero.
+Se debe implementar un menú donde permita introducir que pieza se quiere mover y a donde (respetando las normas de los movimientos de cada pieza), también se debe poder salir del programa.
+
+Ejemplo de salida:
+
+Tablero de ajedrez: (tablero en arrays 2d)
+
+T C A D R A C T
+P P P P P P P P
+- - - - - - - -
+- - - - - - - -
+- - - - - - - -
+- - - - - - - -
+P P P P P P P P
+T C A R D A C T
+
+
+Menú:
+1- Realizar movimiento
+2- Salir

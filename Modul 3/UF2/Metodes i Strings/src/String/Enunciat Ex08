@@ -1,0 +1,36 @@
+Ejercicio 08: Mini ahorcado
+
+Los objetivos de este ejercicio son:
+	Uso de la línea de comandos para interactuar con el usuario
+	Uso de sentencias condicionales
+	Uso de bucles
+	Uso de String
+	Uso Java Documentation
+
+El juego del ahorcado es un juego de adivinanzas de uno o más jugadores donde un jugador piensa en una palabra o frase
+y el resto trata de adivinarla sugiriendo letras. Si la letra que sugiere no está en la palabra o frase, se dibuja un
+elemento del “ahorcado”. El juego termina bien porque se ha acertado la palabra o frase o bien porque se ha dibujado
+por completo el “ahorcado”.
+________________________________________________________________________________________________________________________
+Ejercicio 08 Tarea #1
+
+Desarrolla un programa en Java que disponga de la palabra o frase a adivinar, y muestre por consola tantos * como
+letras contenga la palabra o frase. Si la palabra o frase contiene un espacio en blanco no se dibujará * sino que se
+mantendrá el espacio en blanco. Como pista siempre daremos el primer carácter de la palabra o frase.
+
+Ejemplo de ejecución del programa (la película es Forrest Gump):
+Bienvenido al Mini juego del ahorcado
+Intenta adivinar la película
+F****** ****
+Introduce una letra:
+r
+F*rr*** ****
+________________________________________________________________________________________________________________________
+Ejercicio 08 Tarea #2
+
+Permite ahora que el usuario sugiera una letra. Si está en la palabra o frase a adivinar muéstrala en la
+secuencia. En la siguiente imagen se muestra uno ejemplo de ejecución del programa:
+________________________________________________________________________________________________________________________
+Ejercicio 08 Tarea #3
+
+Amplia el programa para que el usuario tenga 3 intentos (pueda llegar a sugerir 3 letras).

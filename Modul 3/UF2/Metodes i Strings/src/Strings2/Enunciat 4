@@ -1,0 +1,9 @@
+4. Escriviu un programa per afegir 'ing' al final d'una cadena determinada (la
+longitud ha de ser com a mínim 3). Si la cadena donada ja acaba amb 'ing',
+afegiu 'ly' al seu lloc. Si la longitud de la cadena donada és inferior a 3, deixeu-la
+sense canvis.
+
+    Cadena de mostra: "abc"
+    Resultat esperat: "abcing"
+    Cadena de mostra: "string"
+    Resultat esperat: "stringly"

@@ -1,0 +1,41 @@
+//Bini Ferrer Anechina
+
+
+INICI
+ //Declarar variables
+    double euros = 0
+    double bitcoin = 32296.53
+    double ethereum = 1693.80
+
+         escriure("Benvigut al canvi de diners, quants euros vols canviar (nomès permet de 1€ fins a 1000€)?");
+         Llegir quantitat de euros
+
+         si (euros >= 1 && euros <= 1000) //Accepta 1€ que sigui igual o major. Accepta 1000€ igual o menor
+             escriure("Has ingresat " + euros + "€")
+             escriure("Què vols canviar?")
+             escriure("1. Bitcoins (BTC)")
+             escriure("2. Ethereum (ETH)")
+             escriure("3. Sortir")
+
+             Llegir opció escollida
+             switch (option)
+                 opció 1: //Bitcoin
+                     escriure("el canvi es: " + euros / bitcoin + " BTC");
+                     FI
+                 opció 2: //Ethereum
+                     escriure("el canvi es: " + euros / ethereum + " ETH");
+                     FI
+                 opció 3: //Sortir
+                     escriure("Has triat sortir");
+                     FI
+                 default: //Si l'usuari ha posat una altre opció
+                     escriure("Opció no vàlida");
+                     FI
+
+         si no { //Si ha posat un valor inferior a 1€ o major que 1000€
+             escriure("L'import a de ser entre 1-1000€");
+             FI
+
+ FINAL
+
+ //Bini Ferrer Anechina

@@ -1,0 +1,14 @@
+Ejercicio 09: Counter
+
+Los objetivos de este ejercicio son:
+    Uso de la línea de comandos para interactuar con el usuario
+    Uso de sentencias condicionales
+    Uso de bucles
+    Uso de String
+    Uso Java Documentation
+
+Desarrolla un programa en Java que permita al usuario introducir un texto y muestre:
+    Cuantas palabras tiene. Para simplificar el ejercicio, el texto termina con un punto y la separación entre palabras es un espacio en blanco
+    Cuantas vocales tiene.
+
+Hint: Consulta la documentación de Java de la clase String: métodos split, indexOf y lastIndexOf

@@ -1,0 +1,8 @@
+Ejercicio 4. Un vendedor realiza una venta por X cantidad de dinero y su comisión será pagada
+según los siguientes parámetros:
+
+    - Si la venta es menor que 20.000, recibe una bonificación de 7000 más el 2% de las venta.
+    - Si la venta es entre 20.000 y 50.000 recibe una bonificación de 15.000 más el 3% de las ventas.
+    - Si la venta es mayor que 50.000 recibe una bonificación de 20.000 más el 12 % de las ventas.
+
+Implementar el método calcula_bonificacion que a partir de una cantidad de dinero devuelve la comisión.

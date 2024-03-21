@@ -1,0 +1,23 @@
+En JAVA fes que un programa dibuixi un pi de nadal com el següent:
+
+             *
+            ***
+           *****
+          **BON**
+         *********
+        ***NADAL***
+       *************
+      ***************
+     *****************
+    *******************
+
+
+Cal construir el pi dins d’un array bidimensional de chars i després mostrar-lo recorrent l’array
+completament printant totes les posicions per consola.
+
+Es mostra l’arbre
+S’utilitzen bucles per inicialitzar i mostrar array.
+Es mostra el missatge BON NADAL
+Es permet crear un arbre de la mida que l’usuari especifiqui per consola.
+
+

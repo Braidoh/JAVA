@@ -1,0 +1,35 @@
+En JAVA fes que un programa dibuixi una esfera.
+Cal construir l'esfera dins d’un array bidimensional de chars i després mostrar-lo recorrent l’array
+completament printant totes les posicions per consola.
+
+Es mostra l'esfera.
+S’utilitzen bucles per inicialitzar i mostrar array.
+Es permet crear una esfera de la mida que l’usuari especifiqui per consola.
+
+___
+La vertical del circulo está alargado
+
+
+
+
+          *
+      *********
+    *************
+   ***************
+  *****************
+  *****************
+ *******************
+ *******************
+ *******************
+ *******************
+*********************
+ *******************
+ *******************
+ *******************
+ *******************
+  *****************
+  *****************
+   ***************
+    *************
+      *********
+          *

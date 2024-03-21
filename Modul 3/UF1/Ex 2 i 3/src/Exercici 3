@@ -1,0 +1,23 @@
+Per la Grossa de Cap d’Any sabem que els números que poden tenir els bitllets seran valors
+enters positius de 5 xifres. Per exemple 93213.
+
+Usant java, fes una proposta sobre com t’ho faries per emmagatzemar tots els diferents
+números de la Grossa que ha comprat una persona per tal de poder comprovar després quin
+premi li ha tocat?
+
+Explica i argumenta amb paraules (i dibuixos si vols) i també implementa en codi java
+l’estructura de dades que usaries per a guardar les dades sabent que el programa està pensat
+per guardar els números d’una persona i que no sabem quants números pot comprar cada
+usuari de la app. (No et demanem desenvolupar tot el programa, només et preguntem sobre
+l’estructura de dades que implementaries).
+
+________________________________________________________________________________________________________________________
+
+Resposta:
+
+Per gestionar els números de la Grossa de Cap d'Any que ha comprat una persona utilitzaré un Array dinàmic, en concret
+l'Array List. Això és perquè no se sap la quantitat exacta de números que una persona pot comprar, i les llistes
+dinàmiques com el seu nom indica son lo suficient flexibiles per gestionar la col·lecció de números eficientment.
+
+
+

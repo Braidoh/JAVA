@@ -1,0 +1,10 @@
+Ejercicio 3. El programa le pide al usuario dos valores y seguidamente muestra el menú. El
+usuario escoge una opción y seguidamente se muestra el resultado del cálculo indicado por el
+usuario. Implementar un método por opción.
+
+MENÚ:
+    1. Suma
+    2. Resta
+    3. Multiplicacio
+    4. División
+    5. Exponencial

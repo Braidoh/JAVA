@@ -1,0 +1,12 @@
+Ejercicio 04: Contains
+
+Los objetivos de este ejercicio son:
+    Uso de la línea de comandos para interactuar con el usuario
+    Uso de la clase String
+    Uso de sentencias condicionales
+    Uso de Java Documentation
+
+Desarrolla un programa en Java que solicite al usuario un texto.
+    Si el texto introducido por el usuario está vacío (no contiene caracteres) el programa termina.
+    Si el texto introducido por el usuario no está vacío, solicita al usuario una palabra y busca esta palabra en el
+    texto, mostrando por consola si se ha localizado o no.

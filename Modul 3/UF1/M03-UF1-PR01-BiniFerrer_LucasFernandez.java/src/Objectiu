@@ -1,0 +1,6 @@
+Una Inmobiliaria ens demana fer un programa que gestioni el lloguer de locals.
+Aquest programa el que fa és facilitar als clients a trobar un local que s’adapti a les seves necessitats.
+
+Hem pensat en fer servir classificacions per aconseguir l’objectiu de
+facilitar al client de trobar un local que compleix els seus requisits.
+Les classificacions estàn dividides en tipus de pagament, tamany del local, el lloc i el preu.

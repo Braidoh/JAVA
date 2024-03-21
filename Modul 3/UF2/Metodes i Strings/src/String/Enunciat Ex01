@@ -1,0 +1,47 @@
+Los objetivos de este ejercicio son:
+        Uso de la clase String
+        Uso de Java Documentation
+
+El siguiente código usa distintos métodos de la clase String. Ejecútalo e indica cual es la salida por consola.
+¿Qué métodos de la clase String se utilizan? ¿Son estáticos o de instancia? ¿Qué función
+tiene cada uno de estos métodos? ¿Qué devuelven? ¿Qué parámetros de entrada tienen?
+
+public class Main {
+    public static void main(String[] args) {
+        double d = 858.48;
+        String s = String.valueOf(d);
+        int dot = s.indexOf('.');
+        System.out.println(dot+" digits before decimal point");
+        System.out.println((s.length()-dot-1)+" digits after decimal point");
+    }
+}
+
+_________________________________________
+
+1. Salida por consola: 3 digits before decimal point
+                       2 digits after decimal point
+
+2. Metodos de la clase String utilizados:
+valueOf(): devuelve la cadena que está dentro por el objeto String.
+indexOf(): Es un método de instancia que devuelve el índice de la primera ocurrencia de un carácter o subcadena en una cadena.
+length(): Es un método de instancia que devuelve la longitud de una cadena. En este caso, se utiliza para obtener la longitud de la cadena s.
+
+3. Son estáticos o de instancia.
+valueOf(): Estático. Se llama sin crear una instancia (no hay el scanner) de la clase String.
+indexOf(): Instancia. Devuelve el índice de la primera ocurrencia de un carácter o subcadena en una cadena.
+length(): Instancia. Devuelve la longitud de una cadena.
+
+4. Función de cada metodo.
+valueOf(): Convierte un número a una cadena para mostrarlo en un mensaje o guardarlo en un archivo.
+indexOf(): Encontrar la posición de un carácter determinado en una cadena.
+length(): Saber cuántos caracteres hay en una cadena/palabra, en este caso.
+
+5. Qué devuelven.
+valueOf(): Convierte el valor d de tipo double a una cadena.
+indexOf(): Encuentra la posición del punto decimal en la cadena s.
+length(): Obtiene la longitud de la cadena s.
+
+6. Parámetros de entrada.
+valueOf(): Tiene un parámetro de entrada, el valor que se quiere convertir a cadena.
+indexOf(): Tiene dos parámetros de entrada, el carácter o subcadena que se quiere buscar y el índice desde el que se quiere empezar la búsqueda.
+length(): No tiene parámetros de entrada.
