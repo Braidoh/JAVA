@@ -1,0 +1,18 @@
+Ejercicio 01: Array Numérico
+
+Los objetivos de este ejercicio son:
+• Trabajar captura de excepciones.
+• Familiarizarse con las posibles excepciones en el manejo de arrays.
+• Familiarizarse con las posibles excepciones en el uso de la clase Scanner.
+
+A continuación, puedes ver el código de la aplicación java ArrayNumerico. Este programa empieza generando un array
+numérico de longitud y contenido aleatorio. Luego entra en un bucle que solicita al usuario que introduzca un índice
+para acto seguido mostrar su valor correspondiente en el array. El usuario puede finalizar la aplicación cuando lo desee.
+
+Debes controlar las excepciones que se puedan producir en el uso de la aplicación para
+evitar que esta termine de forma inesperada e informar al usuario de cómo debe proceder.
+    • Controla la excepción que se producirá si el usuario solicita un índice inexistente en el array
+    (ArrayIndexOutOfBoundsException), por ejemplo, si se introduce el valor 100.
+    • Controla la excepción que se producirá si el usuario introduce un valor no numérico cuando se
+    le solicita el índice del array deseado en el método nextInt() de la clase Scanner
+    (InputMismatchException)

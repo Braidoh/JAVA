@@ -1,0 +1,23 @@
+public static void main (String[] args) {
+    String[][] alumnat = {{"Pere", "Martínez", "Bosch"},
+                        {"Maria", "Andreu", "Serrano"},
+                        {"Anna", "Renom", "Valls"},
+                        {"Guillem", "Solé", "Fuster"},
+                        };
+    int numAlumnes = mostrarAlumnat (alumnat);
+    System.out.println("Hi ha " + numAlumnes + a classe.");
+}
+
+private static ____ ____ ( ____ ____ ) {
+    for (int i = 0; i < alumnat.length; i++) {
+        for (int j = 0; j < alumnat[i].length; j++) {
+            System.out.println(alumnat[i][j] + " ");
+    }
+    return alumnat.length;
+}
+
+
+Espai blanc 1: int
+Espai blanc 2: mostrarAlumnat
+Espai blanc 3: String[][]
+Espai blanc 4: alumnat

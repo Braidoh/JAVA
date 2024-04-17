@@ -1,0 +1,29 @@
+Exercici 2 (3.0 punts)
+
+L’encarregada d’una botiga de reparació de smartphones necessita un programa
+per poder gestionar les reparacions de mòbils dels seus clients.
+
+Aquest programa ha de tenir les següents funcionalitats:
+
+1. Menú principal amb opció de sortir.
+2. Donar d´alta una nova reparació de mòbil (el programa ha de poder guardar més d’una reparació), amb la següent informació:
+    a. Número de reparació
+    b. Número de sèrie del mòbil a reparar (IMEI)
+    c. DNI del client/a al qual pertany el mòbil (no cal guardar la lletra del DNI)
+3. Donar d´alta nou treballador/a (el programa ha de poder guardar més d’un treballador/a), amb la següent informació:
+    a. Número d’empleat/da
+    b. Número de reparació assignat. Pot ser NULL o 0 en el cas de que no hi hagi cap reparació pendent en el sistema.
+    Però en el cas de no ser NULL, el número de reparació ha d’existir dins de la llista de reparacions.
+4. El recompte de reparacions i treballadors màxims que pot gestionar l’aplicació l’heu de decidir vosaltres.
+5. S´ha d’implementar un mínim de 3 mètodes i ha d’incloure control d’errors.
+6. El menú principal s’ha d’implementar amb recursivitat.
+
+Entregar: Arxiu .java amb el nom: CognomNom_Ex2.java
+
+Puntuació:
++ (0.25) Documentació correcta del mètodes (javadoc)
++ (0.25) Control d’errors implementat de forma modular
++ (0.50) Menú principal recursiu
++ (0.50) Ús d’estructures de dades adequades (vectors, matrius o ArrayList)
++ (0.50) Implementar “Donar d´ata nova reparació” de forma modular
++ (1.00) Implementar “Nou treballador/a” de forma modular

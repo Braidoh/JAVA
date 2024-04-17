@@ -1,0 +1,25 @@
+﻿public static void main(String[] args) {
+    ____ pes = 0, alcada = 0, ample = 0, fons = 0;
+    System.out.println("Introdueix les dades de la maleta de mà:");
+    pes llegirFloat("Pes:", 0, 100);
+    alcada llegirFloat("Alcada:", 0, 100);
+    ample llegirFloat("Amplada:", 0, 100);
+    fons llegirFloat("Fondaria:", 0, 100);
+
+    ____ esMaletaCabina = comprovarMaleta (pes, alcada, ample, fons);
+
+    if (esMaletaCabina) {
+        System.out.println("Ok, és equipatge de mà.");
+    } else {
+        System.out.println("Ho sento, no és equipatge de mà.");
+        System.out.println("Caldrà que facturi la maleta.");
+    }
+}
+
+private static ____ comprovarMaleta (float pes, float alcada, float ample, float fons) {
+____ (pes <= 10.0f && alcada <= 55.0f && ample <= 40.0f && fons <= 20.0f);
+
+Espai blanc 1: int
+Espai blanc 2: boolean
+Espai blanc 3: boolean
+Espai blanc 4: return

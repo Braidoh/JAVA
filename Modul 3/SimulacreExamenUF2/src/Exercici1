@@ -1,0 +1,14 @@
+Implementa una aplicació en el paradigma de programació modular usant Java que:
+
+1. Demani omplir dues cadenes de caràcters mitjançant un menú principal
+2. Compari les dues cadenes introduïdes i determinar si són iguals o no i mostrar-li
+la resposta a l’usuari.
+
+Recorda que per comparar dos Strings pots usar:
+equals(), equalsIgnoreCase() o compareTo()
+Entrega: Arxiu .java amb el nom: CognomNom_Ex1.java
+
+Puntuació:
++ (0.25) Implementar menú correctament amb control d’errors
++ (1.50) Modulació correcte del codi de les funcionalitats
++ (0.25) Documentació correcta del mètodes (javadoc)

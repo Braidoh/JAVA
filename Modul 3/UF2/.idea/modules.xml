@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BiniFerrer_MaquinaVendingBitllets/BiniFerrer_MaquinaVendingBitllets.iml" filepath="$PROJECT_DIR$/BiniFerrer_MaquinaVendingBitllets/BiniFerrer_MaquinaVendingBitllets.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Examen UF2 any passat/Examen UF2 any passat.iml" filepath="$PROJECT_DIR$/Examen UF2 any passat/Examen UF2 any passat.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExamenJAVAExercici2UF2/ExamenJAVAExercici2UF2.iml" filepath="$PROJECT_DIR$/ExamenJAVAExercici2UF2/ExamenJAVAExercici2UF2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FerrerBini_Primitiva/FerrerBini_Primitiva.iml" filepath="$PROJECT_DIR$/FerrerBini_Primitiva/FerrerBini_Primitiva.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Metodes i Strings/Metodes i Strings.iml" filepath="$PROJECT_DIR$/Metodes i Strings/Metodes i Strings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Practica 7,5/Practica 7,5.iml" filepath="$PROJECT_DIR$/Practica 7,5/Practica 7,5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Recursividad/Recursividad.iml" filepath="$PROJECT_DIR$/Recursividad/Recursividad.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/UF2.iml" filepath="$PROJECT_DIR$/.idea/UF2.iml" />
+    </modules>
+  </component>
+</project>
