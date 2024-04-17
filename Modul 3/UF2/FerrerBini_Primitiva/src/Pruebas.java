@@ -3,8 +3,8 @@ import java.util.Random;
 import java.util.Arrays;
 
 public class Pruebas {
-    public static int[] apuesta, combinacion, reintegro; //Lista que contiene los valores
-    public static int cantidadApuesta, aciertos, premio, reintegroApuesta;
+    public static int[] apuesta, reintegroApuesta, reintegro, combinacion; //Lista que contiene los valores
+    public static int cantidadApuesta, aciertos, premio;
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -40,9 +40,9 @@ public class Pruebas {
                     break;
                 case "3": //Juego nuevo
                     apuesta = null;
+                    reintegro = null;
                     combinacion = null;
                     cantidadApuesta = 0;
-                    reintegro = null;
                     aciertos = 0;
                     premio = 0;
                     System.out.println("Juego reiniciado.");
@@ -54,7 +54,7 @@ public class Pruebas {
                 default: //Si l'usuari posa una altre cosa
                     System.out.println("Opción no válida");
             }
-        } while (!option.matches("1234")); // Bucle per si l'usuari posa una opció no vàlida
+        } while (!option.matches("4")); // Bucle per si l'usuari posa una opció no vàlida
         Menu(sc); //Menu recursivo
     }
 
@@ -74,7 +74,7 @@ public class Pruebas {
         //Comprobar reintegro
         boolean retorno; //Por defecto es false
 
-        if (reintegro != null && Arrays.equals(apuesta, reintegro)) { //Si en el array las apuestas y el reintegro coincide
+        if (reintegro != null && Arrays.equals(apuesta, reintegroApuesta)) { //Si en el array las apuestas y el reintegro coincide
             retorno = true;
         }
 
@@ -86,6 +86,7 @@ public class Pruebas {
         return premio; //Pone los resultados en el objeto creado para que no de error en premio y aciertos al tener dos valores distintos
     }
 
+    // Corregir
     public int[] calcularCombinacionGanadora() { //Metodo para calcular la combinación ganadora
         Random random = new Random();
         combinacion = new int[6]; //Hay 6 combinaciones ya que la de reintegro va aparte (1-10)
@@ -101,25 +102,43 @@ public class Pruebas {
         return combinacion;
     }
 
+    //Corregir
     public void introducirApuesta(Scanner sc) {
-        int sumaApuesta = cantidadApuesta*6;
+        int sumaApuesta = cantidadApuesta*6; //Calcula el coste de la apuesta
 
         System.out.println("¿Cuántas veces quieres apostar? (6€ por apuesta)");
         cantidadApuesta = sc.nextInt(); // Lee la cantidad de números que vas a apostar
         System.out.println("Has decidido apostar "+cantidadApuesta+", cuesta "+ sumaApuesta +" €"); //Calcula el coste del numero de las apuestas
         System.out.println("Introduce 6 números entre 1 y 49:");
-        apuesta = new int[sumaApuesta]; // Crea un array de 6 columnas para guardar la apuesta
-        for (int i : apuesta) {
-            sc.nextInt(); // Posa les vegades que hi hagi en sumaApuesta
+        apuesta = new int[sumaApuesta]; // Crea un array para guardar la apuesta
+        reintegroApuesta = new int[cantidadApuesta]; // Crea un array para guardar el reintegro
+
+        for (int i : apuesta) { // Pone las veces que haya en apuesta
+            System.out.println("Introduce el número entre 1 y 49:");
+            apuesta[i] = sc.nextInt(); // Posa les vegades que hi hagi en sumaApuesta
+            if (apuesta[i] >= 1 && apuesta[i] <= 49) {
+                if (i == apuesta.length - 1) {
+                    ApuestaReintegro(sc);
+                }
+            } else {
+                System.out.println("El valor no es válido");
+            }
         }
+    }
 
-        for (int i = 0; i>0 && i < 50; i++) {
+    private void ApuestaReintegro(Scanner sc) {
 
-
-            System.out.println("Introduce el número " + (i+1) + " entre 1 y 49:");
-            apuesta[i] = sc.nextInt();
-        }        System.out.println("Pon el número reintegro (0 y 9)");
-        reintegroApuesta = sc.nextInt();
+        for (int i : reintegroApuesta) { // Pone las veces que haya en reintegro
+            System.out.println("Pon el número reintegro (0 y 9)");
+            reintegroApuesta[i] = sc.nextInt(); // Posa les vegades que hi hagi en sumaApuesta
+            if (reintegroApuesta[i] >= 0 && reintegroApuesta[i] <= 9) {
+                if (i == reintegroApuesta.length - 1) {
+                    Menu(sc);
+                }
+            } else {
+                System.out.println("El valor no es válido");
+            }
+        }
     }
 }
 

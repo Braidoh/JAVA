@@ -52,7 +52,7 @@ public class Recursividad {
     }
 
     private static void MostrarVector(Scanner sc) {
-        int menor = 0; //El numero menor comença
+        int menor = 0; // Inicializa la variable menor
         System.out.println("Introduce el tamaño del vector");
         int size = sc.nextInt();
         int[] vector = new int[size];
@@ -75,8 +75,8 @@ public class Recursividad {
         System.out.println("Introduce los elementos de la matriz");
         int[][] matriz = new int[filas][columnas];
         int suma = 0;
-        for (int[] fila : matriz) {
-            for (int[] columna : matriz) {
+        for (int[] fila : matriz) { // Recorre las filas de la matriz
+            for (int[] columna : matriz) { // Recorre las columnas de la matriz
                 suma += sc.nextInt();
             }
         }

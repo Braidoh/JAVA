@@ -1,0 +1,29 @@
+Exercici 1 (1 punts)
+Donat el següent codi, indica:
+
+public void init(){
+    int[] vector;
+    int a = 5;
+    float b = 30.0f;
+    vector = initVector(a, b);
+}
+
+public static int[] initVector(int x, float y){
+    int[] vector = new int[a];
+    for(int i = 0; i vector.length - 2; i++){
+        vector[i] = (int) y;
+        y -= x ;
+    }
+    return vector;
+}
+
+
+0.5 punts:
+• Quin tipus de variable de retorn té el mètode initVector?
+• Quins paràmetres d’entrada té i de quin tipus de dades són?
+• La crida al mètode és correcte? Justifica-ho i escriu-ho correctament si cal.
+    La crida al mètode no és correcte perquè en el mètode initVector
+    no defineix el int x i el float y i per tant dona error
+
+0.5 punts:
+• Dibuixa el vector que es genera al final amb els valors corresponents.

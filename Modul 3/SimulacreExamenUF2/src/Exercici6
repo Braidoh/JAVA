@@ -1,0 +1,32 @@
+Donada la següent seqüència de crides a mètodes,
+escriu la capçalera de la definició dels mètodes cridats:
+
+public static void main (String[] args) {
+    String nom "Andreu";
+    int x = 2, numLletres;
+    boolean trobada = false;
+
+    char[] lletres obtenir lletres (nom, x, 3);
+    numLletres = comptar Lletres (lletres);
+    imprimirLletres (lletres);
+    trobada buscar Lletra (lletres, 'a');
+    System.out.println(trobada);
+}
+
+// Exercici 6
+
+private static char[] obtenirLletres (String nom, int x, int y) {
+    //Codi restant
+}
+
+private static int comptarLletres (char[] lletres) {
+    //Codi restant
+}
+
+private static void imprimirLletres (char[] lletres) {
+    //Codi restant
+}
+
+private static boolean buscarLletra (char[] lletres, char lletra) {
+    //Codi restant
+}
