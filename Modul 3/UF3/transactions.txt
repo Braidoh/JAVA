@@ -1,0 +1,2 @@
+Nom: transactions Criptomoneda: bit Import: 100 Data: 2024-05-14
+Nom: transactions Criptomoneda: def Import: 12 Data: 2024-05-14

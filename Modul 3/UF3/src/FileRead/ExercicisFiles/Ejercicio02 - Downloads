@@ -1,0 +1,58 @@
+Los objetivos de este ejercicio son:
+• Trabajar con la clase java.io.File
+• Entender métodos que permiten listar contenido de un directorio
+• Entender métodos que permiten comprobar estado, propiedades de un objeto File
+________________________________________________________________________________________________________________________
+
+Ejercicio 02 Tarea #1
+
+Para inicializar un objeto File tenemos que indicar una ruta, pero el elemento al que hará referencia el
+objeto File, sea fichero o directorio, podrá existir o no en el sistema de ficheros. Los métodos exists(),
+isFile(), isDirectory() nos ayudan a comprobar el estado del objeto File: Consulta la documentación de
+Java para entender su uso.
+
+Hint: El método exists() retorna un boolean para indicar si el fichero o directorio existe en
+el sistema de ficheros.  Comprueba que es diferente del método isFile() o del método isDirectory(),
+que permiten indicar si el elemento  existente en el sistema de ficheros es un fichero o directorio
+
+El método listFiles() permite consultar el contenido de un directorio. Este método retorna un array de
+objetos File (File[]) que podremos recorrer con un bucle.
+
+Desarrolla una aplicación Java que acceda a la carpeta “descargas” (o downloads) del PC y de cada
+elemento que contenga indique, además de su nombre, si es fichero o es directorio
+
+________________________________________________________________________________________________________________________
+
+Ejercicio 02 Tarea #2
+
+Amplía la aplicación desarrollada en la tarea anterior, para que de cada fichero que exista
+en la carpeta “descargas” indique además su tamaño en K Bytes y la última fecha de modificación.
+
+Hint: El método lastModified() de la clase java.io.File retorna un tipo long con el número de milisegundos
+que han pasado desde 1 junio 1970 (epoch time de UNIX) hasta la última fecha de modificación del fichero.
+Si un programa mostramos al usuario este número entero, por ejemplo, 1306751122651L… no será capaz de
+entender la  información. Tenemos entonces que traducir este número entero a un formato fecha que el
+usuario pueda entender  (por ejemplo 01/01/2018 12:54). Busca en internet opciones para resolver esto:
+https://www.tutorialspoint.com/java/io/file_lastmodified.htm
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

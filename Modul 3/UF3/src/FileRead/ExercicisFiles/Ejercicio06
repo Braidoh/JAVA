@@ -1,0 +1,10 @@
+Ejercicio 06: Scores
+
+Los objetivos de este ejercicio son:
+• Trabajar con la clase java.io.File
+• Entender la lectura/escritura de ficheros orientados a texto
+En la plataforma dispones del fichero M03-UF3-E06-scores.txt. Este fichero contiene las notas en
+distintas asignaturas de cada uno de los alumnos de una clase. Desarrolla una aplicación Java que
+permita calcular la nota media de cada alumno a partir de los datos el fichero. Guarda previamente el
+fichero en el workspace del proyecto. Esta nota media se mostrará por consola y se escribirá junto con
+el nombre del alumno en el fichero “medias.txt” que se guardará en el workspace del proyecto

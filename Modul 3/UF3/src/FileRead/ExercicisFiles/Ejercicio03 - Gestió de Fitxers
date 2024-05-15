@@ -1,0 +1,38 @@
+Ejercicio 03 - Gestión de Ficheros
+
+Los objetivos de este ejercicio son:
+• Trabajar con la clase java.io.File
+• Entender métodos que permiten realizar operaciones de gestión de ficheros: copiar, eliminar, mover, etc
+
+Java permite realizar operaciones básicas con el sistema de ficheros como renombrar ficheros,
+borrarlos, copiarlos, moverlos, crear directorio, crear fichero, …
+
+________________________________________________________________________________________________________________________
+
+Ejercicio 03 Tarea #1
+
+Desarrolla una aplicación Java que cree una carpeta dentro del workspace del proyecto denominada “fotos”,
+y mueva todos los ficheros con extensión .png que existan en la carpeta “descargas” del PC en ella.
+
+Hint: El método renameTo(File target) de la clase java.io.File es un método con un nombre
+un poco engañoso (rename significa cambiar nombre) ya que su función real no es
+simplemente cambiar el nombre de un fichero o carpeta, sino cambiar la ubicación completa.
+
+________________________________________________________________________________________________________________________
+
+Ejercicio 03 Tarea #2
+
+Amplía el código desarrollado en la tarea anterior de forma que
+borre la carpeta fotos y su contenido del workspace del proyecto
+
+Hint: El método delete() de la clase java.io.File permite borrar un fichero o carpeta.
+Retorna un boolean para indicar si la operación ha podido o no completarse.
+Hay varios motivos por los que la operación puede fallar: si la ruta es
+incorrecta o si se trata de una carpeta y esta no está vacía. Entonces ten en
+cuenta que para poder eliminar la carpeta, hay que eliminar antes todo su contenido.
+
+
+
+
+
+

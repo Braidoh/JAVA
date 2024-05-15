@@ -1,0 +1,23 @@
+Los objetivos de este ejercicio son:
+• Trabajar captura de excepciones.
+• Trabajar el lanzamiento explícito de excepciones.
+• Trabajar la declaración de excepciones.
+• Trabajar excepciones personalizadas de tipo checked y unchecked.
+A continuación, puedes ver el código de una aplicación que genera nombres de usuario de forma
+aleatoria utilizando una base de datos propia. Estos nombres de usuario son generados en el Array
+users.
+
+Debes generar el código necesario para incluir los nombres del Array users dentro del ArrayList
+checkedUsers realizando dos comprobaciones previas:
+• No podemos tener nombres repetidos en checkedUsers.
+• No podemos tener nombres que sobrepasen los caracteres definidos en userLimitLength.
+Realiza estas dos comprobaciones dentro de un método llamado checkUser, este método debe arrojar
+dos excepciones personalizadas:
+• Una excepción de tipo Checked si el nombre ya existe en checkedUsers.
+• Una excepción Unchecked si el nombre sobrepasa el límite establecido por la variable
+userLimitLength.
+En el método Main deberás controlar ambas excepciones para informar convenientemente al usuario
+de lo que esta ocurriendo.
+• En el caso de la excepción Checked seguiremos con el normal funcionamiento de la aplicación.
+• En el caso de la excepción Uncheckd entenderemos que la aplicación no puede continuar y
+dejaremos que finalice.

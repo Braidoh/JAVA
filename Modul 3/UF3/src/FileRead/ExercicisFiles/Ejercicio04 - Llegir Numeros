@@ -1,0 +1,9 @@
+Ejercicio 04: Reading numbers
+
+Los objetivos de este ejercicio son:
+• Trabajar con la clase java.io.File
+• Entender la lectura de ficheros orientados a texto
+
+Crea un fichero numbers.txt que contenga una serie de números decimales separados entre sí por
+espacios en blanco. Desarrolla una aplicación Java que lea el fichero numbers.txt y muestre su
+contenido por consola, indicando además el valor medio de todos los valores.

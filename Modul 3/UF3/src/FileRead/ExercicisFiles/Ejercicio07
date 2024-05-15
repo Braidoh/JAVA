@@ -1,0 +1,16 @@
+Ejercicio 07: Concesionario
+Los objetivos de este ejercicio son:
+• Trabajar con la clase java.io.File
+• Entender la lectura/escritura de ficheros orientados a byte
+
+Desarrolla una aplicación Java que permita gestionar los vehículos de un concesionario. Los vehículos
+se almacenarán en un fichero orientado a byte denominado concesionario.dat que se ubicará en el
+workspace del proyecto. Las acciones que permitirá la aplicación serán:
+[1] Listar coches: se mostrará al usuario los coches de los que dispone el concesionario. Tendrás que
+hacer uso del método toString() de la clase Car. Para ello se deberá abrir fichero en modo lectura.
+[2] Añadir coche: se solicitará al usuario los datos del nuevo coche (marca, modelo, asientos) y se
+añadirá. Se deberá abrir el fichero en modo escritura para registrar los cambios.
+En la plataforma dispones del Java application Project E07-Concesionario.zip. Este proyecto contiene
+dos ficheros con código fuente que deberás ampliar para cumplir con los requisitos de la aplicación:
+• Car.java
+• Main.java

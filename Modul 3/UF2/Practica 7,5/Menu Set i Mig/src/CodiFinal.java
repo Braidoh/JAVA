@@ -94,7 +94,7 @@ public class CodiFinal {
         } while (!option.matches("5")); // Surta del bucle si l'usuari posa 5
     }
 
-    private static void Menu(Scanner sc) { // Mètode que mostra el menú principal
+    private static void Menu(Scanner sc) { // Mètode     que mostra el menú principal
         do { // Bucle
             System.out.println("""
                     Menu Principal:

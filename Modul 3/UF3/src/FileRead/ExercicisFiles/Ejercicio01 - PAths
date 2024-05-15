@@ -1,0 +1,11 @@
+Ejercicio01: Paths
+
+Los objetivos de este ejercicio son:
+• Trabajar con la clase java.io.File
+• Entender métodos que permiten obtener información sobre la ruta
+La clase java.io.File dispone de diversos métodos para obtener información de su ruta. Algunos de los
+más importantes son getAbsolutePath(), getName(), getParent(). Investiga sobre ellos en la
+documentación de Java.
+A continuación puedes ver el código de una aplicación donde se han definido distintos objetos File
+(fichero/directorio, con ruta absoluta / ruta relativa) que hace uso de estos métodos. Analiza el código y
+ejecuta la aplicación en tu ordenador para completar la siguiente tabla:

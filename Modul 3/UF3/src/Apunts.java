@@ -9,6 +9,20 @@ public class Apunts {
         System.out.println(windwosFile.lastModified()); // Mostra la data de l’última modificació
 
 
+        FITXERS
+            .txt --> File nomArxiu = new File("nomArxiu.txt"); // Busca el fitxer
+                 --> File nomScanner = new File("nomArxiu.txt"); // Llegeix el fitxer
+                 --> PrintStream.NomQueVulguis = new PrintStream(nomArxiu); // Permet escriure en un fitxer
+
+            .data
+                No veus res perquè està codificat en bytes
+                Ocupa menys espai i és més ràpid de llegir-lo
+                --> FileOutputStream nomArxiu = new FileOutputStream("nomArxiu.data"); // Busca el fitxer
+                --> DataInputStream input = new DataInputStream("nomArxiu.data"); // Llegeix en binari
+                --> DataOutputStream output = new DataOutputStream("nomArxiu.data"); // Escriu en binari
+
+
+
         Data de tipus primitiu --> int, double, char, boolean, byte, short, long, float
         Data de tipus objecte --> String, Scanner, File, Random, ArrayList, LinkedList, HashMap, etc.
 

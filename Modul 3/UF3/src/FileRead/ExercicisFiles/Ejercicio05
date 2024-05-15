@@ -1,0 +1,8 @@
+Ejercicio 05: Writing numbers
+
+Los objetivos de este ejercicio son:
+• Trabajar con la clase java.io.File
+• Entender la escritura de ficheros orientados a texto
+Desarrolla una aplicación Java que cree el fichero numbers.txt. El programa calculará aleatoriamente 25
+valores entre 1 y 100, y escribirá estos valores en 5 líneas y cada línea tendrá 5 valores. Dentro de una
+línea, cada valor se separará del siguiente mediante un espacio en blanco

@@ -1,0 +1,19 @@
+Ejercicio02: Ficheros
+
+Los objetivos de este ejercicio son:
+• Trabajar captura de excepciones.
+• Trabajar el lanzamiento explícito de excepciones.
+• Trabajar la declaración de excepciones.
+• Trabajar propagación de excepciones.
+• Familiarizarse con las posibles excepciones en el manejo de ficheros.
+
+Crea una aplicación que pida al usuario la ruta de un fichero txt y que escriba todo su contenido
+convertido a mayúsculas en un segundo fichero cuya ruta le será solicitada también al usuario.
+
+• Crea dos métodos uno para la lectura del fichero origen y otro para la creación y escritura del fichero destino.
+• Propaga todas las excepciones que se puedan producir al método principal.
+• Comprueba que el fichero destino no exista, en caso contrario lanza
+explícitamente una excepción de tipo FileAlreadyExistsException.
+• Debes tratar de forma distinta las excepciones: NoSuchFileException, FileAlreadyExistsException
+y el resto, en este último caso imprime por pantalla la pila de llamadas de la excepción.
+• Informa finalmente al usuario si el programa ha terminado con incidencias o no
