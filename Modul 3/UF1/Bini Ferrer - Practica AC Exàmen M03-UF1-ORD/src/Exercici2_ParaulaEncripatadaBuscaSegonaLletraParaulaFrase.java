@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Exercici2 {
+public class Exercici2_ParaulaEncripatadaBuscaSegonaLletraParaulaFrase {
     public static void main(String[] args) {
 
         // Declaració de variables

@@ -15,7 +15,7 @@ public class Escacs2 {
         };
 
         int contador = 1; // Contador per saber quan saltar de linea (comença 1 perquè el primer salt de línia és al 8)
-        String option;
+        String option, peon, cavall;
 
         for (String[] fila : tauler) {
             for (String columna : fila) {
@@ -28,8 +28,7 @@ public class Escacs2 {
         }
 
         do {
-            System.out.println("""
-                
+            System.out.println("""                
                 Menú del Programa:
                 1. Moure cavall
                 2. Moure peó
@@ -37,16 +36,55 @@ public class Escacs2 {
 
             option = sc.next();
             switch (option) {
+                int columna;
+
                 case "1": // Moure cavall
                     System.out.println("Has escollit la opció 1: Moure cavall");
                     // Mirar posició actual
-
-
-
+                    // Mirar si la posició a la que es vol moure està buida
+                    // Moure cavall
                     break;
                 case "2": // Moure peó
-                    System.out.println("Has escollit la opció 2: Moure peó");
+                    System.out.println("Has escollit la opció 2: Moure peó \nQuin peó vols moure? Blanc (P) o negre (p)");
+                    peon = sc.next();
+                    if (peon.equals("P")) {
+                        System.out.println("Has escollit el peó blanc \nDe la columna 1 a la 8, quin vols moure? Posa nomès el número");
+                        columna= sc.nextInt();
+                        if (columna < 1 || columna > 8) {
+                            System.out.println("Columna no vàlida");
+                            break;
+                        } else {
+                            for (int i = 0; i < tauler.length; i++) {
+                                if (tauler[i][columna-1].equals("P")) {
+                                    // Moure peó
+                                    System.out.println("Peó trobat a la posició " + (i+1) + "," + columna);
 
+                                    break;
+                                }
+                            }
+                        }
+                    } else if (peon.equals("p")) {
+                        System.out.println("Has escollit el peó negre");
+                        peon = sc.next();
+                        if (peon.equals("P")) {
+                            System.out.println("Has escollit el peó blanc.\nDe la columna 1 a la 8, quin vols moure? Posa nomès el número");
+                            columna= sc.nextInt();
+                            if (columna < 1 || columna > 8) {
+                                System.out.println("Columna no vàlida");
+                                break;
+                            } else {
+                                for (int i  = 0; i < tauler.length; i++) {
+                                    for (int j = 0; j < tauler[i].length; j++) {
+                                        if (tauler[i][j].equals("p") && tauler[i-1][j].equals("_")) {
+
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    } else {
+                        System.out.println("Peó no vàlid");
+                    }
                     break;
                 case "3": // Sortir
                     System.out.println("Sortint...");
@@ -61,8 +99,3 @@ public class Escacs2 {
     }
 }
 
-// 1. Demanar posició actual
-// 2. Demanar posició destí
-// 3. Comprovar si la posició destí és vàlida
-// 4. Comprovar si la posició destí està buida o té una peça contrària
-// 5. Moure peça

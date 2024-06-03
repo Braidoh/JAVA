@@ -28,19 +28,16 @@ public class ConversorMoneda {
                 euro = scanner.nextDouble();
                 System.out.println("El canvi és: " + euro * euroDolar + " dòlars");
                 break;
-
             case 2: //Euro a lliures esterlines
                 System.out.println("Has triat convertir euros a lliures esterlines");
                 System.out.println("Introdueix la quantitat en euros: ");
                 euro = scanner.nextDouble();
                 System.out.println("El canvi és: " + euro * euroLiure + " lliures esterlines");
                 break;
-
             case 3: //Sortir
                 System.out.println("Gràcies per utilitzar el conversor de moneda");
-                break;
-            default:
-                System.out.println("No es vàlid");
+                scanner.close(); //Tanca scanner
+                System.exit(0); //Finalitza el programa
                 break;
         } scanner.close();
         System.exit(0);

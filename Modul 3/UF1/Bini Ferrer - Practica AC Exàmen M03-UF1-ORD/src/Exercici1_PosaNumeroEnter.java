@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PosaNumeroEnter {
+public class Exercici1_PosaNumeroEnter {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Por favor, introduce un número entero:");

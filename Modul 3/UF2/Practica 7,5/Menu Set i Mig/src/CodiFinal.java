@@ -91,7 +91,7 @@ public class CodiFinal {
                 default: // Si l'usuari posa una altre cosa
                     System.out.println("Opció no vàlida.");
             }
-        } while (!option.matches("5")); // Surta del bucle si l'usuari posa 5
+        } while (!option.matches("E")); // Surta del bucle si l'usuari posa 5
     }
 
     private static void Menu(Scanner sc) { // Mètode     que mostra el menú principal

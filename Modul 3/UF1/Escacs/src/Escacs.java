@@ -20,7 +20,6 @@ public class Escacs {
         for (int i = 0; i < tauler.length; i++) {
             for (int j = 0; j < tauler.length; j++) {
                 System.out.print(tauler[i][j] + " ");
-
                 // Si el contador es divisible per 8, salta de linea
                 if (contador % 8 == 0 && contador != 0) {
                     System.out.print("\n");
@@ -30,8 +29,7 @@ public class Escacs {
         }
 
         do {
-            System.out.println("""
-                
+            System.out.println("""                
                 Menú del Programa:
                 1. Moure cavall
                 2. Moure peó
@@ -50,9 +48,6 @@ public class Escacs {
                     System.out.println("Sortint...");
                     sc.close(); // Tanca scanner
                     System.exit(0); // Finalitza programa
-                    break;
-                default: // Si l'usuari posa una altre cosa
-                    System.out.println("Opció no vàlida");
                     break;
             }
         } while (!option.matches("3"));

@@ -1,7 +1,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Exercici3 {
+public class Exercici3_BonNadal {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Introdueix l'altura desitjada de l'arbre: "); // Solicita la altura del árbol
