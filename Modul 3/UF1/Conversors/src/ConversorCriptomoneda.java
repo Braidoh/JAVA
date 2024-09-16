@@ -44,7 +44,7 @@ public class ConversorCriptomoneda {
                     System.exit(0); //Finalitza el programa
                     break;
             }
-        } while (!option.matches("3")); //Si l'usuari posa 3, surt del bucle i finalitza el programa
+        } while (option.matches("3")); //Si l'usuari posa 3, surt del bucle i finalitza el programa
     }
 }
 

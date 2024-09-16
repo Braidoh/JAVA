@@ -3,21 +3,34 @@ import java.util.Scanner;
 public class Escacs2 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String[][] tauler = new String[][] {
-                {"T","C","A","K","Q","A","C","T"},
-                {"P","P","P","P","P","P","P","P"},
-                {"_","_","_", "_", "_", "_", "_", "_"},
-                {"_","_","_", "_", "_", "_", "_", "_"},
-                {"_","_","_", "_", "_", "_", "_", "_"},
-                {"_","_","_", "_", "_", "_", "_", "_"},
-                {"p","p","p","p","p","p","p","p"},
-                {"t","c","a","q","k","a","c","t"}
-        };
+        String[][] taula;
+        String[] PECES = {"T", "C", "A", "K", "Q", "A", "C", "T"}; // Peces Blanques
+        String[] peces = {"t", "c", "a", "k", "q", "a", "c", "t"}; // Peces Negres
+        taula = new String[8][8]; // Crea el tauler amb les files i columnes
+
+        for (int i = 0; i < taula.length; i++) { // files
+            for (int j = 0; j < taula[i].length; j++) { // columnes
+                if (i == 0) {
+                    taula[i][j] = PECES[j]; // Peces Blanques
+                } else if (i == 1) {
+                    taula[i][j] = "P"; // Peó Blanc
+                } else if (i == 6) {
+                    taula[i][j] = "p"; // Peó Negre
+                } else if (i == 7) {
+                    taula[i][j] = peces[j]; // Peces Negres
+                } else {
+                    taula[i][j] = "_";
+                }
+                System.out.print(taula[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }/*
 
         int contador = 1; // Contador per saber quan saltar de linea (comença 1 perquè el primer salt de línia és al 8)
         String option, peon, cavall;
 
-        for (String[] fila : tauler) {
+        for (String[] fila : taula) {
             for (String columna : fila) {
                 System.out.print(columna + " "); // Pint: Ho fa en una sola línia i no ho salta
                 if (contador % 8 == 0 && contador != 0) { // Si el contador es divisible per 8, salta de linea
@@ -54,8 +67,8 @@ public class Escacs2 {
                             System.out.println("Columna no vàlida");
                             break;
                         } else {
-                            for (int i = 0; i < tauler.length; i++) {
-                                if (tauler[i][columna-1].equals("P")) {
+                            for (int i = 0; i < taula.length; i++) {
+                                if (taula[i][columna-1].equals("P")) {
                                     // Moure peó
                                     System.out.println("Peó trobat a la posició " + (i+1) + "," + columna);
 
@@ -73,9 +86,9 @@ public class Escacs2 {
                                 System.out.println("Columna no vàlida");
                                 break;
                             } else {
-                                for (int i  = 0; i < tauler.length; i++) {
-                                    for (int j = 0; j < tauler[i].length; j++) {
-                                        if (tauler[i][j].equals("p") && tauler[i-1][j].equals("_")) {
+                                for (int i  = 0; i < taula.length; i++) {
+                                    for (int j = 0; j < taula[i].length; j++) {
+                                        if (taula[i][j].equals("p") && taula[i-1][j].equals("_")) {
 
                                         }
                                     }
@@ -96,6 +109,6 @@ public class Escacs2 {
                     break;
             }
         } while (!option.matches("3"));
-    }
+    }*/
 }
 

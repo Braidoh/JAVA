@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class FerrerBini_Exercici2 {
+public class InventariProductes {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String[][] inventari = new String[100][3]; // Creació de l'array inventari amb 40 files i 3 columnes
